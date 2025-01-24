@@ -22,7 +22,7 @@ main img {
 }
 
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 main{
@@ -34,8 +34,8 @@ aside{
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #eee;/* #3735b1;*/
-    color: #333/*#adcb15;*/
+    background-color:  #eee; /*#3735b1;*/
+    color: #333 /*#adcb15;*/
 }
 
 aside img{
