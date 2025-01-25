@@ -49,7 +49,7 @@ h2{
     left: 350px;
     border: 0px solid #000;
     background: radial-gradient(#fafdfd, #6296a3);
-    box-shadow: #000;
+    box-shadow: 0 0 30px #111;
     width: 1200px;
     box-shadow: 0 0 30px #B7DCE1;
     }
