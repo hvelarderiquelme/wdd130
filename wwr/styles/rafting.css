@@ -101,7 +101,7 @@ h2{
 
 .history{
     display: grid;
-    grid-template-columns: 46% 10% 44%;
+    grid-template-columns: 47% 10% 43%;
     justify-content: space-around;
         
 } 
@@ -111,12 +111,12 @@ h2{
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-column-start: 1;
     grid-column-end: 6;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .adventure_pictures img{
     height: 200px;
-    width: 297px;
+    width: 300px;
 }
 
 .information{
