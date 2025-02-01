@@ -5,12 +5,55 @@
     --accent-color-2: #7DBDCA;
 }
 
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .nav_position{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+}    
+
 h1{
     color: var(--primary-color);
-  }
+    height: auto;
+    width: 300px;
+}
+
+article{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    order: 1; */
+    
+   
+    
+}
 
 h2{
-    color: var(--primary-color)
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+
+}
+
+.underline{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 1;
+    
 }
 
 .underline a{
@@ -22,34 +65,41 @@ h2{
 }
 
 .hero img{
-    display: block;
+    display: grid;
     width: 100%;
     height: auto;
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content: flex-end;
+    
 }
 
 .tittle-banner{
     position: absolute;
-    top: 55px;
+    top: 155px;
     background: radial-gradient(#d9dbd3, #856833);
 	border: 0px solid #000;
-	padding-left: 800px;
+	padding-left: 600px;
     padding-right: 800px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 	box-shadow: 0 0 30px #111;
 	opacity: 0.9;
     }
 
-    .text-color{
+.text-color{
         color: var(--primary-color);
     }
 .over-picture{
+
     position: absolute;
-    top: 300px;
-    left: 350px;
+    top: 600px;
+    left: 150px;
     border: 0px solid #000;
     background: radial-gradient(#fafdfd, #6296a3);
     box-shadow: 0 0 30px #111;
+    height: auto;
     width: 1200px;
     box-shadow: 0 0 30px #B7DCE1;
     }
@@ -60,3 +110,39 @@ h2{
     float: right;
     }
 
+.history{
+    display: grid;
+    grid-template-columns: 46% 10% 44%;
+    justify-content: space-around;
+        
+} 
+
+.adventure_pictures{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    justify-content: space-evenly;
+}
+
+.adventure_pictures img{
+    height: 200px;
+    width: 297px;
+}
+
+.information{
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content:flex-end;
+}
+
+.soc_media{
+    display:grid;
+    grid-template-columns: 10% 10% 20%;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    justify-content: flex-end;
+    
+    
+}
