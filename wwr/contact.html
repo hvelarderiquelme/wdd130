@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Horacio Velarde | WDD130 | Contact US">
+    <meta name="author" content="Horacio Velarde">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Contact Us Page</title>
+</head>
+<body>
+    <header class="top">
+        <img src="images/z-splash.png" alt="Water Rafting" width="200" height="200">
+        <nav class="nav_position">
+            <a href="index.html">Main Page</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Our Services</a>
+            <a href="contact.html">Contact US</a>
+        </nav>
+    </header>
+    <main class="main_body">
+        <div>
+            <h2>SPLASH White Water Rafting</h2>
+            <h2>123 Water Road W, Medicine AB Canada T1B2Z7</h2>
+            <h2>ph: 999-999-9999</h2>
+            <h2>emai: contactus@splash.ca</h2>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4377.441789358359!2d-112.08989445883262!3d49.154152289900516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sca!4v1738951478860!5m2!1sen!2sca" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </div>
+        <section>
+            <h2>Meet our staff</h2>
+            <div class="staff">
+                <img src="images/Teresa.jpg" alt="Our founder">
+                <img src="images/Patrick.jpg" alt="Adventure leader">
+                <img src="images/Michelle.jpg" alt="Adventure leader">
+            </div>
+
+            <div class="titles">
+                <div class="captions">
+                    <p>Teresa</p>
+                    <p>Our founder and CEO.</p>
+                </div>
+                <div class="captions">
+                    <p>Patrick</p>
+                    <p>Adventure leader and guide.</p>
+                </div>
+                <div class="captions">
+                    <p>Michelle</p>
+                    <p>Adventure leader and guide</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h1>Contact Us:</h1>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="fullname">
+                        <label for="fullname">Full name: </label>
+                        <input type="text" id="fullname" name="fullname"> 
+                    </div>
+                    <div class="email">
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                </fieldset>
+                <fieldset class="inquiry_type">
+                    <legend>What is your inquiry about?</legend>
+                    <div>
+                        <input type="radio" id="general" name="inquiry">
+                        <label for="general">General Inquiry</label>                       
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="inquiry">
+                        <label for="reservation">Reservations</label>                       
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="inquiry">
+                        <label for="suggestion">Website suggestions</label>                       
+                    </div>
+                </fieldset>
+                
+                <fieldset class="message_field">
+                    <legend>Please leave us your message:</legend>
+                    <textarea id="message" name="message"></textarea>
+                    <div class="submit_message"><button type="submit" value="submit inquiry">Send message</button></div>
+                </fieldset>
+                <section class="subs_section">
+                    <h3>Would you like to receive our news letter?</h3>
+                <div class="subscription">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                </section>
+            </form>
+            
+        </section>    
+    </main>
+    <footer class="underline">
+        <p class="information">&COPY;2025 | SPLASH White Water Rafting | Horacio Velarde</p>
+        <nav class="soc_media">    
+            <a href="https://facebook.com">
+                <img src="images/FB.jfif" alt="FACEBOOK" width="50" height="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/IN.jfif" alt="instagram" width="50" height="50">
+            </a>    
+            <a href="https://twitter.com">
+                <img src="images/TW.png" alt="twitter" width="50" height="50">
+            </a>   
+        </nav>    
+        
+    </footer>   
+</body>
+</html>
