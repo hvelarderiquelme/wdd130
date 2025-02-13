@@ -22,9 +22,9 @@ header{
     justify-content: space-evenly;
 }
 
-    a {
-        color: #E7E6DA; 
-    }
+a {
+       color: #E7E6DA; 
+}
 
 main{
     display: grid;
