@@ -163,6 +163,7 @@ h3{
 
 .information{
     display:grid;
+    grid-template-rows: 1fr;
     grid-column-start: 1;
     grid-column-end: 4;
     align-content: center;
